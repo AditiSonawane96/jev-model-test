@@ -1,28 +1,35 @@
 # JEV Model Test: Does My Resume Match This Job?
 
-Testing **Jev**, the new System One model from TypeSafe AI, using the free Playground at [console.typesafe.ai](https://console.typesafe.ai).
+## What is Jev
 
-## Why this test
+Jev is the System One model from TypeSafe AI, launched in September 2026. It is not a chatbot, and it does not write text.
 
-The Playground already ships with an example question set for **recruiters**. It screens a candidate's resume on its own, for example coding depth, engineer type, and open source work.
+You give it two things:
 
-I flipped it around. This version is for **me as a job seeker**: I give Jev my resume **and** a job description, and it tells me how well the two align before I apply.
+- A **state**: the information you want it to look at, as text or JSON.
+- A set of **questions**: each one with an answer type you define up front.
 
-## What does the model do?
+It returns one answer per question, each with a probability, usually in under a second. All questions are answered in parallel, in a single call.
 
-Jev is not a chatbot. It does not write text.
-
-- You give it a **state**: the information to look at (here, my resume and a job posting).
-- You give it **questions**: each one has a fixed answer type.
-- It returns one answer per question with a **probability**, usually in under a second.
-
-The three answer types:
+There are three answer types:
 
 | Type | What it answers | Example |
 |---|---|---|
-| **Score** | How much, on a scale I define | How well do my past roles match this job? 0 to 4 |
-| **Choice** | Which one, from a list I define | Is this a TPM, Program Manager, or Scrum Master role? |
+| **Score** | How much, on a scale you define | How well do my past roles match this job? 0 to 4 |
+| **Choice** | Which one, from a list you define | Is this a TPM, Program Manager, or Scrum Master role? |
 | **Noul** | Yes or no, as a probability | Does this job require a certification I don't have? |
+
+Because you fix the shape of every answer before you run it, the output stays comparable. Swap in a different job posting, run the same questions, and the numbers line up against each other.
+
+## What I built with it
+
+The TypeSafe AI Playground ships an example question set for **recruiters**. It screens a candidate's resume on its own, for example coding depth, engineer type, and open source work.
+
+I flipped it around for the **job seeker**. My state holds my resume **and** a job description. My questions ask how well the two align: do I match the responsibilities, do I meet the requirements, is the seniority right, is this even the kind of role I think it is.
+
+I run it before I apply, to decide whether a posting is worth a tailored resume or worth skipping.
+
+It is free to run at [console.typesafe.ai](https://console.typesafe.ai).
 
 ## Steps
 
