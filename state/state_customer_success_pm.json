@@ -1,0 +1,92 @@
+{
+  "today": "September 21, 2026",
+  "my_resume": {
+    "summary": "Program Management professional with 5+ years of experience turning business requirements into executable plans and driving cross-functional teams through delivery, with a Master's in Engineering Management specializing in Project Management.",
+    "work_experience": [
+      {
+        "title": "Project Manager",
+        "company": "Acronotics Pvt Ltd",
+        "location": "Pune, India",
+        "dates": "Jan 2022 to May 2024",
+        "bullets": [
+          "Led a team of 20, allocating workload, managing backlogs, and tracking task and sprint status to improve resource utilization and support timely delivery of sprint commitments.",
+          "Built and executed Plans of Record across concurrent programs, managing scope, schedules, stakeholder communication, infrastructure setup, test plan coordination, and prioritization to drive on-time, on-budget, and in-scope delivery.",
+          "Tracked key program metrics and deviations from the Plan of Record, proactively escalating risks and issues and driving corrective actions to prevent schedule and delivery impacts.",
+          "Led sprint planning and Scrum calls, establishing task assignments, tracking milestones, and coordinating dependencies to maintain execution across multiple concurrent workstreams.",
+          "Collaborated with stakeholders to translate business and technical requirements into structured tasks, stories, and features, improving requirement clarity and reducing rework and downstream defects.",
+          "Delivered weekly program reviews and status reports to Director-level leadership, consolidating program health, metrics, risks, issues, and progress to drive cross-functional alignment and timely decision-making."
+        ]
+      },
+      {
+        "title": "Sales Planning Executive",
+        "company": "India Kawasaki Motors",
+        "location": "Pune, India",
+        "dates": "Aug 2019 to Sept 2021",
+        "bullets": [
+          "Coordinated 5+ product launches and cross-functional initiatives, managing schedules, requirements, vendors, and deliverables from planning through execution to ensure on-time delivery.",
+          "Analyzed 100K+ sales, customer, inventory, and production data points across 20+ dealerships, providing product performance and demand insights to support planning and operational decisions.",
+          "Built Tableau dashboards and daily, weekly, and monthly performance reports across motorcycle models, providing Sales and management with visibility into key metrics.",
+          "Coordinated with Sales, Service, Production, Logistics, and Operations to communicate customer requirements, resolve issues, manage dependencies, and maintain cross-functional alignment and execution."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science, Engineering and Technology Management",
+        "school": "Portland State University",
+        "date": "May 2026"
+      },
+      {
+        "degree": "Bachelor of Engineering, Computer Engineering",
+        "school": "Pune University",
+        "date": "June 2019"
+      }
+    ],
+    "skills": {
+      "program_management": "Program Planning and Execution, Plan of Record (POR), Scope, Schedule and Milestones, Gantt Charts, Risk and Dependency Management, Resource Coordination, Program Metrics",
+      "stakeholder_management": "Requirements Gathering, Cross-Functional Collaboration, Executive Communication, Issue Resolution, Prioritization",
+      "tools": "Jira, Excel, Tableau, ERP, CRM, Canva, Azure, Figma, Confluence"
+    },
+    "certification": "Project Management Certification",
+    "relevant_coursework": "Project Management, Project Management Tools, Communications, Data Warehousing, Financial Management"
+  },
+  "job_posting": {
+    "title": "Customer Success Program Manager",
+    "summary": "Partner with cross-functional stakeholders across the business, use data to guide decisions, and own communication channels to create synergy and clarity at a global scale. Work on major projects including Agentic AI deployments, product adoption initiatives, and global maturity.",
+    "responsibilities": {
+      "product_execution_and_delivery": [
+        "Own assigned programs end-to-end, driving consistency, accuracy, and accountability.",
+        "Translate strategy into a prioritized, defensible plan, connecting day-to-day execution to broader business outcomes.",
+        "Exercise judgement on scope and priority, including defining the when and the how, with clear rationale."
+      ],
+      "data_metrics_and_decision_making": [
+        "Define what success looks like before work begins, and measure outcomes rigorously after delivery to drive optimal adoption.",
+        "Use data as the primary input for prioritization and iteration decisions, not an afterthought.",
+        "Maintain strong data hygiene throughout the program lifecycle, and problem-solve or pivot when new information emerges."
+      ],
+      "audience_empathy_and_cross_functional_leadership": [
+        "Build alignment and drive decisions across teams without relying on positional authority.",
+        "Navigate competing priorities with independent judgement that builds organizational trust over time.",
+        "Maintain an evidence-based understanding of the needs of the people you are building for, and anchor decisions to that understanding.",
+        "Right-size delivery based on the needs of different personas and stakeholder groups."
+      ],
+      "communication_and_resourcefulness": [
+        "Communicate proactively and clearly with stakeholders at every level of the organization.",
+        "Navigate ambiguity with resourcefulness by building and maintaining the cross-functional relationships to close gaps."
+      ]
+    },
+    "requirements": [
+      "3 to 6 years of experience in program management, project management, operations, or a related field.",
+      "A track record of owning org-wide projects or programs from planning through delivery with minimal oversight.",
+      "Comfortable working with data to define success metrics, track outcomes, and make prioritization calls.",
+      "Strong written and verbal communication skills, with the ability to tailor messaging to different audiences.",
+      "A bias toward action, high attention to detail, and comfort operating in ambiguity.",
+      "Strong discernment while using Agentic and AI tools."
+    ],
+    "nice_to_have": [
+      "Experience in a high growth SaaS or tech environment.",
+      "Familiarity with project management and data tooling (e.g., Asana, Jira, Salesforce, Snowflake or similar).",
+      "Exposure to operations, strategy, or business-process work in addition to core program management."
+    ]
+  }
+}

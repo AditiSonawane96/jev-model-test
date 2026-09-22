@@ -1,0 +1,60 @@
+{
+  "years_of_experience": {
+    "type": "choice",
+    "instructions": {
+      "question": "Does the candidate's program management, project management, or operations experience fall within the required 3 to 6 years?",
+      "today": "September 21, 2026"
+    },
+    "criteria": {
+      "below_range": "Less than 3 years of relevant experience.",
+      "in_range": "Between 3 and 6 years of relevant experience.",
+      "above_range": "More than 6 years of relevant experience."
+    }
+  },
+  "end_to_end_ownership": {
+    "type": "score",
+    "instructions": "How strongly does the resume show owning org-wide projects or programs from planning through delivery with minimal oversight? When torn between two levels, pick the lower.",
+    "criteria": [
+      "No evidence of owning programs.",
+      "Supported programs owned by others.",
+      "Owned team-level projects end to end.",
+      "Owned multiple or org-wide programs end to end with minimal oversight."
+    ]
+  },
+  "data_driven_decisions": {
+    "type": "score",
+    "instructions": "How strongly does the resume show using data to define success metrics, track outcomes, and make prioritization calls?",
+    "criteria": [
+      "No evidence of working with data.",
+      "Tracked or reported data, but not used for decisions.",
+      "Used metrics to track outcomes and guide some decisions.",
+      "Defined success metrics and clearly used data to drive prioritization."
+    ]
+  },
+  "cross_functional_leadership": {
+    "type": "score",
+    "instructions": "How strongly does the resume show building alignment and driving decisions across teams without positional authority?",
+    "criteria": [
+      "No evidence of cross-functional work.",
+      "Worked alongside other teams.",
+      "Coordinated multiple teams toward shared goals.",
+      "Drove alignment and decisions across many teams and leadership levels."
+    ]
+  },
+  "communication_across_levels": {
+    "type": "noul",
+    "instructions": "Does the resume show tailoring communication to different audiences, including senior leadership?"
+  },
+  "ai_tools_experience": {
+    "type": "noul",
+    "instructions": "Does the resume show hands-on use of Agentic or AI tools?"
+  },
+  "saas_tech_experience": {
+    "type": "noul",
+    "instructions": "Does the candidate have experience in a SaaS or tech company environment?"
+  },
+  "tooling_familiarity": {
+    "type": "noul",
+    "instructions": "Does the resume show experience with project management or data tools such as Asana, Jira, Salesforce, Snowflake, or similar?"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "today": "September 21, 2026",
+  "my_resume": {
+    "summary": "Program Management professional with 5+ years of experience turning business requirements into executable plans and driving cross-functional teams through delivery, with a Master's in Engineering Management specializing in Project Management.",
+    "work_experience": [
+      {
+        "title": "Project Manager",
+        "company": "Acronotics Pvt Ltd",
+        "location": "Pune, India",
+        "dates": "Jan 2022 to May 2024",
+        "bullets": [
+          "Led a team of 20, allocating workload, managing backlogs, and tracking task and sprint status to improve resource utilization and support timely delivery of sprint commitments.",
+          "Built and executed Plans of Record across concurrent programs, managing scope, schedules, stakeholder communication, infrastructure setup, test plan coordination, and prioritization to drive on-time, on-budget, and in-scope delivery.",
+          "Tracked key program metrics and deviations from the Plan of Record, proactively escalating risks and issues and driving corrective actions to prevent schedule and delivery impacts.",
+          "Led sprint planning and Scrum calls, establishing task assignments, tracking milestones, and coordinating dependencies to maintain execution across multiple concurrent workstreams.",
+          "Collaborated with stakeholders to translate business and technical requirements into structured tasks, stories, and features, improving requirement clarity and reducing rework and downstream defects.",
+          "Delivered weekly program reviews and status reports to Director-level leadership, consolidating program health, metrics, risks, issues, and progress to drive cross-functional alignment and timely decision-making."
+        ]
+      },
+      {
+        "title": "Sales Planning Executive",
+        "company": "India Kawasaki Motors",
+        "location": "Pune, India",
+        "dates": "Aug 2019 to Sept 2021",
+        "bullets": [
+          "Coordinated 5+ product launches and cross-functional initiatives, managing schedules, requirements, vendors, and deliverables from planning through execution to ensure on-time delivery.",
+          "Analyzed 100K+ sales, customer, inventory, and production data points across 20+ dealerships, providing product performance and demand insights to support planning and operational decisions.",
+          "Built Tableau dashboards and daily, weekly, and monthly performance reports across motorcycle models, providing Sales and management with visibility into key metrics.",
+          "Coordinated with Sales, Service, Production, Logistics, and Operations to communicate customer requirements, resolve issues, manage dependencies, and maintain cross-functional alignment and execution."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science, Engineering and Technology Management",
+        "school": "Portland State University",
+        "date": "May 2026"
+      },
+      {
+        "degree": "Bachelor of Engineering, Computer Engineering",
+        "school": "Pune University",
+        "date": "June 2019"
+      }
+    ],
+    "skills": {
+      "program_management": "Program Planning and Execution, Plan of Record (POR), Scope, Schedule and Milestones, Gantt Charts, Risk and Dependency Management, Resource Coordination, Program Metrics",
+      "stakeholder_management": "Requirements Gathering, Cross-Functional Collaboration, Executive Communication, Issue Resolution, Prioritization",
+      "tools": "Jira, Excel, Tableau, ERP, CRM, Canva, Azure, Figma, Confluence"
+    },
+    "certification": "Project Management Certification",
+    "relevant_coursework": "Project Management, Project Management Tools, Communications, Data Warehousing, Financial Management"
+  },
+  "job_posting": {
+    "title": "Technical Customer Role (AI company)",
+    "responsibilities": [
+      "Own technical customer inquiries and escalations from initial request through resolution.",
+      "Become deeply knowledgeable about the company's products, models, APIs, capabilities, and technical workflows.",
+      "Investigate and troubleshoot customer issues, identify root causes, and coordinate with Engineering and Product to drive resolution.",
+      "Translate customer questions and business requirements into clear technical problems and actionable next steps.",
+      "Communicate technical concepts, limitations, workarounds, and solutions clearly to technical and non-technical stakeholders.",
+      "Partner closely with Engineering and Product to prioritize high-impact customer issues and ensure timely follow-through.",
+      "Identify patterns across customer inquiries and surface recurring product gaps, bugs, feature requests, and opportunities.",
+      "Build processes, documentation, and tooling that improve how we manage and resolve technical customer requests as we scale.",
+      "Help customers navigate complex use cases and get the most out of the company's technology."
+    ],
+    "requirements": [
+      "Strong technical fluency and ability to quickly understand complex products, APIs, systems, and workflows.",
+      "Experience in a technical, customer-facing role such as Technical Program Management, Solutions Engineering, Technical Account Management, Developer Support, or a similar function.",
+      "Strong troubleshooting and problem-solving skills, particularly when working through ambiguous or complex technical issues.",
+      "Ability to communicate effectively with both engineers and customers and translate between technical and business contexts.",
+      "Exceptional ownership and follow-through, with the ability to drive multiple requests and workstreams to resolution.",
+      "Strong prioritization skills and comfort operating in a high-volume, fast-moving environment.",
+      "Excellent written and verbal communication skills."
+    ],
+    "nice_to_have": [
+      "Experience with AI/ML, generative AI, video, or creative technology products.",
+      "Experience supporting APIs, developer products, or technically sophisticated enterprise customers.",
+      "Familiarity with debugging API requests, integrations, logs, and production issues.",
+      "Experience partnering closely with Product and Engineering teams to turn customer feedback into product improvements.",
+      "Experience operating in a rapidly scaling technology company."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "overall_fit": {
+    "type": "score",
+    "instructions": "Overall, how strong a fit is the candidate for this job? Consider responsibilities, requirements, and seniority together. When torn between two levels, pick the lower.",
+    "criteria": [
+      "Poor fit. Different field or major gaps.",
+      "Weak fit. Some overlap but several key gaps.",
+      "Moderate fit. Worth applying with a tailored resume.",
+      "Strong fit. Meets most of what the job asks for.",
+      "Excellent fit. Matches nearly everything."
+    ]
+  },
+  "responsibilities_match": {
+    "type": "score",
+    "instructions": "How much of the job's day to day work has the candidate clearly done before? Judge real work, not keywords.",
+    "criteria": [
+      "Almost none of the work matches.",
+      "A few tasks match.",
+      "About half the work matches.",
+      "Most of the work matches.",
+      "Nearly all the work matches."
+    ]
+  },
+  "requirements_match": {
+    "type": "score",
+    "instructions": "How many of the job's REQUIRED qualifications does the resume clearly show? Ignore 'nice to have' items.",
+    "criteria": [
+      "Few or none.",
+      "Some, missing several.",
+      "Most, missing one or two.",
+      "All of them."
+    ]
+  },
+  "seniority_fit": {
+    "type": "choice",
+    "instructions": "Compare the level and years the job asks for with the candidate's experience.",
+    "criteria": {
+      "under_qualified": "The job asks for clearly more experience than the candidate has.",
+      "good_fit": "The level matches the candidate's experience.",
+      "over_qualified": "The job is clearly junior to the candidate."
+    }
+  },
+  "role_type": {
+    "type": "choice",
+    "instructions": "What kind of role is this? Judge by the responsibilities, not just the title.",
+    "criteria": {
+      "technical_program_manager": "Coordinates engineering teams and technical delivery.",
+      "program_manager": "Runs multiple related projects or business programs.",
+      "project_manager": "Manages one project's scope, schedule, and budget.",
+      "scrum_master": "Runs agile ceremonies and coaches teams on process.",
+      "product_manager": "Decides what to build and owns the roadmap.",
+      "technical_customer_success": "Owns technical customer issues, escalations, and solutions.",
+      "operations": "Improves processes, supply chain, or business operations.",
+      "analytics": "Works mainly with data, reporting, or dashboards.",
+      "other": "None of the above."
+    }
+  },
+  "industry": {
+    "type": "choice",
+    "instructions": "What industry is the hiring company in?",
+    "criteria": {
+      "software_tech": "Software, SaaS, AI, or internet company.",
+      "automotive_manufacturing": "Vehicles, manufacturing, or hardware.",
+      "healthcare": "Hospitals, biotech, pharma, or health tech.",
+      "finance": "Banking, fintech, or insurance.",
+      "retail_consumer": "Retail, apparel, or consumer goods.",
+      "other": "Any other industry."
+    }
+  },
+  "requires_coding": {
+    "type": "noul",
+    "instructions": "Does the job require writing production code as a core part of the role?"
+  },
+  "missing_certification": {
+    "type": "noul",
+    "instructions": "Does the job REQUIRE a certification (such as PMP, CSM, or PgMP) that the resume does not show?"
+  }
+}
